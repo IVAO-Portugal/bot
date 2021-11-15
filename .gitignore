@@ -5,7 +5,7 @@ logs/
 site/
 
 # files
-.env
+# .env
 version
 user/database.sqlite
 user/plugins/*/

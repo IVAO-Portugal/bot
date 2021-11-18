@@ -180,7 +180,8 @@ module.exports = class SettingsCommand extends Command {
 					type: Command.option_types.SUB_COMMAND
 				}
 			],
-			permissions: ['MANAGE_GUILD']
+			permissions: ['MANAGE_GUILD'],
+			staff_only: true
 		});
 
 	}

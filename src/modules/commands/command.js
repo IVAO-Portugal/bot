@@ -58,6 +58,8 @@ module.exports = class Command {
 		 */
 		this.staff_only = data.staff_only === true;
 
+		this.hq_only = data.hq_only === true;
+
 		/**
 		 * Array of permissions needed for a user to use this command
 		 * @type {string[]}

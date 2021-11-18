@@ -181,7 +181,7 @@ module.exports = class SettingsCommand extends Command {
 				}
 			],
 			permissions: ['MANAGE_GUILD'],
-			staff_only: true
+			hq_only: true
 		});
 
 	}
